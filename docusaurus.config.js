@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://AfraButera.github.io',
+  url: 'https://AfraButera.github.io/AfraButera',
   baseUrl: '/my-note/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
