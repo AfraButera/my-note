@@ -50,7 +50,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             type: 'doc',
-            docId: 'NOTE',
+            docId: 'NOTE/Test',
             position: 'left',
             label: '筆記區',
           },
