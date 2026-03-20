@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_note=globalThis.webpackChunkmy_note||[]).push([[706],{5121(e){e.exports=JSON.parse('{"permalink":"/my-note/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

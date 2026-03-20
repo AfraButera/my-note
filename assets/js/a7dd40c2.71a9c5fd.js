@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_note=globalThis.webpackChunkmy_note||[]).push([[792],{1739(o){o.exports=JSON.parse('{"allTagsPath":"/my-note/blog/tags","slug":"/my-note/blog/tags/facebook","name":"facebook","count":1,"permalink":"/my-note/blog/tags/facebook"}')}}]);
