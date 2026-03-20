@@ -6,11 +6,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Note Space',
   tagline: 'ENJOY BEING IN THE PROCESS OF BECOMING',
-  url: 'https://AfraButera.github.io/AfraButera',
+  url: 'https://AfraButera.github.io',
   baseUrl: '/my-note/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'my-note/img/eohmw-9hxvl-001.ico',
+  favicon: 'img/eohmw-9hxvl-001.ico',
   organizationName: 'AfraButera', // Usually your GitHub org/user name.
   projectName: 'my-note', // Usually your repo name.
 
@@ -65,7 +65,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         
             
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Note Space, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
