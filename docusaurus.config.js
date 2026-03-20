@@ -10,7 +10,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   baseUrl: '/my-note/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '/my-note/img/eohmw-9hxvl-001.ico',
+  favicon: 'my-note/img/eohmw-9hxvl-001.ico',
   organizationName: 'AfraButera', // Usually your GitHub org/user name.
   projectName: 'my-note', // Usually your repo name.
 
@@ -22,7 +22,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/AfraButera/my-note/edit/main/website/',
+          // editUrl: 'https://github.com/AfraButera/my-note/edit/main/website/',
         },
         blog: false,
         theme: {
