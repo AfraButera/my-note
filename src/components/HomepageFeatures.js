@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'This is a ....... I fogot it.',
+    title: 'This is a ....... I forgot it.',
     Svg: require('../../static/img/noteweb-banner.svg').default,
     description: (
       <>
