@@ -21,7 +21,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          exclude:['/my-note/docs/HELLO/hello'],
+          exclude:['/HELLO/hello'],
           // Please change this to your repo.
           // editUrl: 'https://github.com/AfraButera/my-note/edit/main/website/',
         },
