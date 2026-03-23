@@ -57,7 +57,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 type: 'html',
                 value: '<b style="padding: 5px">💻 Macbook 相關</b>',
               },
-            ]
+            ],
           },
           {
             href: 'https://github.com/AfraButera',
