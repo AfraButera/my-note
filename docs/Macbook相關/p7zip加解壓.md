@@ -6,7 +6,7 @@
 以下會透過Homebrew安裝p7zip
 以及加解壓縮（加解密）的指令
 
-<p>
+
 1.使用Homebrew安裝p7zip
 打開Terminal
 輸入 **brew install p7zip**
@@ -22,4 +22,4 @@ cd 到要解壓縮的目錄 <br>
 ∆ <br>
 
 ![7z a filename -password](../../static/img/p7zip/p7zip-02.png "7z a filename -password")
-<p>
+
