@@ -58,7 +58,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 docId: 'Macbook相關/p7zip加解壓',
                 position: 'left',
                 label: 'p7zip',
-              }
+              },
             ]
           },
           {
