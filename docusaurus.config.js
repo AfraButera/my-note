@@ -51,11 +51,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             type: 'dropdown',
             position: 'left',
-            label: '筆記區',
+            label: '💻 Macbook 相關 (點此進入)',
             items:[
               {
                 to: '/docs/Macbook相關/p7zip加解壓',
-                label: '💻 Macbook 相關 (點此進入)',
+                label: 'p7zip加解壓',
              
               },
             ],
