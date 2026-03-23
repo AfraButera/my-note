@@ -50,12 +50,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             type: 'dropdown',
+            position: 'left',
             label: '筆記區',
             items:[
               {
                 type: 'doc',
                 docId: 'Macbook相關/p7zip加解壓',
-                position: 'left',
                 label: 'p7zip',
               },
             ]
