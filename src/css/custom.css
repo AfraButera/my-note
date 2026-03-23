@@ -4,8 +4,7 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. 
-/*隱藏特定選單項目的樣式，這裡是想要隱藏hello.md */
+/* You can override the default Infima variables here.  */
 
 :root {
   --ifm-color-primary: #49423f9d;
@@ -27,8 +26,4 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
-}
-
-.hidden-sidebar-item {
-  display: none;
 }
