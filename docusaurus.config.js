@@ -54,7 +54,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: '筆記區',
             items:[
               {
-                type: 'html',
+                type: 'link',
                 value: '<b style="padding: 5px">💻 Macbook 相關</b>',
               },
             ],
