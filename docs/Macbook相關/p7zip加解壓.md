@@ -20,4 +20,4 @@ cd 到要解壓縮的目錄
 ∆ -mhe=on (隱藏壓縮檔內部的檔名清單)→ Method:Header Encryption = on ☢︎only 7z supported
 ∆ 
 
-![7z a filename -password](../../static/img/p7zip/p7zip-01.png "7z a filename -password")
+![7z a filename -password](../../static/img/p7zip/p7zip-02.png "7z a filename -password")
