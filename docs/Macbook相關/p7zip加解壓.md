@@ -10,4 +10,4 @@
 
 打開Terminal
 輸入 brew install p7zip
-![brew install p7zip](/my-note/img/p7zip-01.png"brew insatll p7zip")
+![brew install p7zip](../../static/img/p7zip-01.png "brew install p7zip")
