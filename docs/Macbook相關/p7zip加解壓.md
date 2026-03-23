@@ -11,7 +11,7 @@
 輸入 **brew install p7zip**
 ![brew install p7zip](../../static/img/p7zip/p7zip-01.png "brew install p7zip")
 
-2.加密及製作壓縮檔
+2.加密及製作壓縮檔 <br />
 cd 到要解壓縮的目錄 <br />
 輸入**7z a 輸出檔名 -p** <br />
 ∆ 7z → 啟動7zip程式 <br />
