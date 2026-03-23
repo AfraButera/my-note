@@ -50,7 +50,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             type: 'dropdown',
-            position: 'left',
             label: '筆記區',
             items:[
               {
