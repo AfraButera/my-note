@@ -50,7 +50,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             type: 'doc',
-            docId: 'NOTE/Test',
+            docId: 'Macbook相關/p7zip加解壓',
             position: 'left',
             label: '筆記區',
           },

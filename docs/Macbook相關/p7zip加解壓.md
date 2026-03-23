@@ -10,4 +10,4 @@
 
 打開Terminal
 輸入 brew install p7zip
-[!p7zip](/my-note/static/img/p7zip-01.png)
+(/my-note/img/p7zip-01.svg)
