@@ -1,5 +1,5 @@
 ---
-sidebar_class_name: 'hidden-sidebar-item
+sidebar_class_name: hidden-sidebar-item
 ---
 #HELLO 歡迎來到我的筆記空間！
 架這個網站的目的就是為了丟筆記，以及訓練自己如何做筆記，
