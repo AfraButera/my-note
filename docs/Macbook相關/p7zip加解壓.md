@@ -28,3 +28,5 @@ zip不支援隱藏檔名範例，若輸入了-mhz則會報錯 <br />
 ![7z a file -tzip -password](../../static/img/p7zip/p7zip-04.png "7z a file -tzip -password")<br />
 
 3.解密壓縮檔
+![7z unpack](../../static/img/p7zip/p7zip-05.png "7z unpack")
+![zip unpack](../../static/img/p7zip/p7zip-06.png "zip unpack")
