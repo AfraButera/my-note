@@ -54,8 +54,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: '筆記區',
             items:[
               {
-                type: 'link',
-                value: '<b style="padding: 5px">💻 Macbook 相關</b>',
+                to: '/docs/Macbook相關/p7zip加解壓',
+                label: '💻 Macbook 相關 (點此進入)',
+             
               },
             ],
           },
