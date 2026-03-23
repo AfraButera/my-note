@@ -55,7 +55,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items:[
               {
                 type: 'doc',
-                docId: 'Macbook相關/p7zip加解壓縮',
+                docId: 'Macbook相關/p7zip加解壓',
                 position: 'left',
                 label: 'p7zip',
               }
