@@ -49,10 +49,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: '哈囉',
           },
           {
-            type: 'doc',
-            docId: 'Macbook相關/p7zip加解壓',
+            type: 'dropdown',
             position: 'left',
             label: '筆記區',
+            items:[
+              {
+                type: 'doc',
+                docId: 'Mackbook相關/p7zip加解壓縮',
+                label: 'p7zip'
+              }
+            ]
           },
           {
             href: 'https://github.com/AfraButera',
