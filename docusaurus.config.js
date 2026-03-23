@@ -43,12 +43,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         items: [
           {
-            type: 'doc',
-            docId: 'HELLO/hello',
-            position: 'left',
-            label: '哈囉',
-          },
-          {
             type: 'dropdown',
             position: 'left',
             label: '💻 Macbook 相關 (點此進入)',
