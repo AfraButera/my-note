@@ -12,12 +12,12 @@
 ![brew install p7zip](../../static/img/p7zip/p7zip-01.png "brew install p7zip")
 
 2.加解密 
-cd 到要解壓縮的目錄
-輸入**7z a 輸出檔名 -p**
-∆ 7z → 啟動7zip程式
-∆ a → Add
-∆ -p → Password
-∆ -mhe=on (隱藏壓縮檔內部的檔名清單)→ Method:Header Encryption = on ☢︎only 7z supported
-∆ 
+<br> cd 到要解壓縮的目錄 <br>
+<br> 輸入**7z a 輸出檔名 -p** <br>
+<br> ∆ 7z → 啟動7zip程式 <br>
+<br> ∆ a → Add <br>
+<br> ∆ -p → Password <br>
+<br> ∆ -mhe=on (隱藏壓縮檔內部的檔名清單)→ Method:Header Encryption = on ☢︎only 7z supported <br>
+<br> ∆ <br>
 
 ![7z a filename -password](../../static/img/p7zip/p7zip-02.png "7z a filename -password")
