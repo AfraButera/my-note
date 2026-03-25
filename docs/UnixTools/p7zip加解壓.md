@@ -11,6 +11,7 @@
 輸入 **brew install p7zip**
 ![brew install p7zip](../../static/img/p7zip/p7zip-01.png "brew install p7zip")
 
+``brew install p7zip``
 <button 
   className="button button--primary" 
   onClick={() => {navigator.clipboard.writeText('brew install p7zip');alert('已複製指令！');}}>
@@ -28,6 +29,7 @@ cd 到要解壓縮的目錄 <br />
 
 ![7z a filename -password](../../static/img/p7zip/p7zip-02.png "7z a filename -password")<br />
 
+``7z a my_file -p** -mhe``
 <button 
   className="button button--primary" 
   onClick={() => {navigator.clipboard.writeText('7z a my_file -p** -mhe');alert('已複製指令！');}}>
@@ -39,6 +41,7 @@ zip不支援隱藏檔名範例，若輸入了-mhz則會報錯 <br />
 拉掉-mhz後 <br />
 ![7z a file -tzip -password](../../static/img/p7zip/p7zip-04.png "7z a file -tzip -password")<br />
 
+``7z a my_file -tzip -p**``
 <button 
   className="button button--primary" 
   onClick={() => {navigator.clipboard.writeText('7z a my_file -tzip -p**');alert('已複製指令！');}}>
