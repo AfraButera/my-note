@@ -45,7 +45,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             type: 'dropdown',
             position: 'left',
-            label: '💻 Unix(類Unix)工具集 ',
+            label: '⌨️ Unix(類Unix)工具集 ',
             items:[
               {
                 to: '/docs/UnixTools/p7zip加解壓',
@@ -61,7 +61,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             {
               type:'dropdown',
               position:'left',
-              label:'💻 Markdown Note',
+              label:'⌨️ Markdown Note',
               items:[
                 {
                   to:'/docs/Markdown Note/copy_button',
