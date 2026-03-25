@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'This is a fish',
+    title: 'There have a fish',
     Svg: require('../../static/img/noteweb-fish.svg').default,
     description: (
       <>
