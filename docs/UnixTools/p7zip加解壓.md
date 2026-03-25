@@ -11,9 +11,15 @@
 輸入 **brew install p7zip**
 ![brew install p7zip](../../static/img/p7zip/p7zip-01.png "brew install p7zip")
 
+<button 
+  className="button button--primary" 
+  onClick={() => {navigator.clipboard.writeText('brew install p7zip');alert('已複製指令！');}}>
+  複製程式碼
+</button> <br/>
+
 2.加密及製作壓縮檔 <br />
 cd 到要解壓縮的目錄 <br />
-輸入**7z a 輸出檔名 -p** <br />
+輸入**7z a my_file -p** <br />
 ∆ 7z → 啟動7zip程式 <br />
 ∆ a → Add <br />
 ∆ -p → Password <br />
@@ -22,10 +28,22 @@ cd 到要解壓縮的目錄 <br />
 
 ![7z a filename -password](../../static/img/p7zip/p7zip-02.png "7z a filename -password")<br />
 
+<button 
+  className="button button--primary" 
+  onClick={() => {navigator.clipboard.writeText('7z a my_file -p** -mhe');alert('已複製指令！');}}>
+  複製程式碼
+</button> <br/>
+
 zip不支援隱藏檔名範例，若輸入了-mhz則會報錯 <br />
 ![tzip file can not use mhe](../../static/img/p7zip/p7zip-03.png "tzip file cant not use mhe")<br />
 拉掉-mhz後 <br />
 ![7z a file -tzip -password](../../static/img/p7zip/p7zip-04.png "7z a file -tzip -password")<br />
+
+<button 
+  className="button button--primary" 
+  onClick={() => {navigator.clipboard.writeText('7z a my_file -tzip -p**');alert('已複製指令！');}}>
+  複製程式碼
+</button> <br/>
 
 3.解密壓縮檔
 ![7z unpack](../../static/img/p7zip/p7zip-05.png "7z unpack")
