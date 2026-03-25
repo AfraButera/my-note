@@ -75,7 +75,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               label:'⌨️ Docker',
               items:[
                 {
-                  to:'/docs/Docker/doc.md',
+                  to:'/docs/Docker/doc',
                   label:'docker',
                 },
               ],
@@ -86,7 +86,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               label:'⌨️ PostgreSQL',
               items:[
                 {
-                  to:'/docs/PostgreSQL/post.md',
+                  to:'/docs/PostgreSQL/post',
                   label:'post',
                 },
               ],
@@ -97,7 +97,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               label:'⌨️ Python',
               items:[
                 {
-                  to:'/docs/Python/py.md',
+                  to:'/docs/Python/py',
                   label:'py',
                 },
               ],
