@@ -45,14 +45,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             type: 'dropdown',
             position: 'left',
-            label: '💻 Macbook 相關 (點此進入)',
+            label: '💻 Unix(類Unix)工具集 ',
             items:[
               {
-                to: '/docs/Macbook相關/p7zip加解壓',
+                to: '/docs/UnixTools/p7zip加解壓',
                 label: 'p7zip加解壓',
              
               },
             ],
+            items:[
+              {
+                to: '/docs/UnixTools/tar_tgz',
+                label: 'tar跟tgz轉換',
+             
+              },
+          ],
           },
           {
             href: 'https://github.com/AfraButera',
