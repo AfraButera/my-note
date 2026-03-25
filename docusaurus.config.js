@@ -58,6 +58,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
             ],
           },
+          items:[
+            {
+              type:'dropdown',
+              position:'left',
+              label:'💻 Markdown Note',
+              items:[
+                {
+                  to:'/docs/Markdown Note/copy_button',
+                  label:'copy_button',
+                },
+              ],
+            },
+          ],
           {
             href: 'https://github.com/AfraButera',
             label: 'My GitHub',
