@@ -41,12 +41,10 @@ zip不支援隱藏檔名範例，若輸入了-mhz則會報錯 <br />
 拉掉-mhz後 <br />
 ![7z a file -tzip -password](../../static/img/p7zip/p7zip-04.png "7z a file -tzip -password")<br />
 
-``7z a my_file -tzip -p**``
-<button 
-  className="button button--primary" 
-  onClick={() => {navigator.clipboard.writeText('7z a my_file -tzip -p**');alert('已複製指令！');}}>
-  複製程式碼
-</button> <br/>
+```
+7z a my_file -tzip -p**
+```
+
 
 3.解密壓縮檔
 ![7z unpack](../../static/img/p7zip/p7zip-05.png "7z unpack")
