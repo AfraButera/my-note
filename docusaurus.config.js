@@ -58,7 +58,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
             ],
           },
-          items:[
             {
               type:'dropdown',
               position:'left',
@@ -70,7 +69,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 },
               ],
             },
-          ],
           {
             href: 'https://github.com/AfraButera',
             label: 'My GitHub',
