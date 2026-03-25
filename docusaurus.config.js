@@ -50,9 +50,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 to: '/docs/UnixTools/p7zip加解壓',
                 label: 'p7zip加解壓',
+                
+              },
+              {
                 to: '/docs/UnixTools/tar_tgz',
                 label: 'tar跟tgz轉換',
-             
               },
             ],
           },
