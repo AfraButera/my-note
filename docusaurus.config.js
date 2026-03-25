@@ -69,6 +69,39 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 },
               ],
             },
+            {
+              type:'dropdown',
+              position:'left',
+              label:'⌨️ Docker',
+              items:[
+                {
+                  to:'/docs/Docker/doc.md',
+                  label:'docker',
+                },
+              ],
+            },
+            {
+              type:'dropdown',
+              position:'left',
+              label:'⌨️ PostgreSQL',
+              items:[
+                {
+                  to:'/docs/PostgreSQL/post.md',
+                  label:'post',
+                },
+              ],
+            },
+            {
+              type:'dropdown',
+              position:'left',
+              label:'⌨️ Python',
+              items:[
+                {
+                  to:'/docs/Python/py.md',
+                  label:'py',
+                },
+              ],
+            },
           {
             href: 'https://github.com/AfraButera',
             label: 'My GitHub',
