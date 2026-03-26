@@ -13,7 +13,7 @@ docker run hello-world
 
 
 ```
-docker docker-help
+docker docker
 ``` 
 ![docker help](../../static/img/docker/docker_help.png "docker help")
 
