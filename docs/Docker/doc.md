@@ -1,27 +1,36 @@
 # Docker 基本指令 
 
 **去倉庫(公私有倉庫)拉images，以下以hello-world(image)做範例**
+*tag沒指定就會帶latest(預設)，tag就是版本號*
 ```
-docker pull hello-world
+docker pull <imageName>:<tag>
 ```
 ![docker pull](../../static/img/docker/docker_pull.png "docker pull")
 
 
 **Docker run 如果沒有東西就會自己pull，再run**
+*Flow:從本地找有無image，沒有的話就去Docker Hub(倉庫)找，pull下來再run*
 ```
 docker container run hello-world or docker run hello-world
 ```
 ![docke run](../../static/img/docker/docker_run.png "docker run")
 
 
-**Docker help**
+**命名自己的Container**
 ```
-docker docker
+docker run --name <containerName> <image>:<tag>
+```
+![docker name container](../../static/img/docker/docker_name_container.png "docker name container")
+
+
+**Docker help:想知道更多指令有啥怎麼用，直接輸入docker**
+```
+docker
 ``` 
 ![docker help](../../static/img/docker/docker_help.png "docker help")
 
 
-**查看Docker版本**
+**查看現在的Docker版本**
 ```
 docker -v or docker --version
 ```
