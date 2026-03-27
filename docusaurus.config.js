@@ -64,7 +64,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               label:'⌨️ Markdown Note',
               items:[
                 {
-                  to:'/docs/Markdown Note/copy_button',
+                  to:'/docs/Markdown Note/複製按鈕怎麼做',
                   label:'複製按鈕怎麼做',
                 },
               ],
