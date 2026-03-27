@@ -113,7 +113,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         
             
-        copyright: `Copyright © ${new Date().getFullYear()} AfraButera's Note Space, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Afra's Note Space, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
