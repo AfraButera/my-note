@@ -65,8 +65,8 @@ docker rm <containerID> or <containerName>
 ````
 docker rm -f <containerID> or <containerName>
 ````
-![docker rm container](../../static/img/docker/docker_rm.png "docker delete container") <br/>
-![docker rmf container](../../static/img/docker/docker_rmf.png "docker delete container force)
+![docker rm container](../../static/img/docker/docker_rm.png "docker delete container")
+![docker rmf container](../../static/img/docker/docker_rmf.png "docker delete container force")
 
 
 **查看目前系統有的images**
