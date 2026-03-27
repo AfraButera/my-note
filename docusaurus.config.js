@@ -65,7 +65,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               items:[
                 {
                   to:'/docs/Markdown Note/copy_button',
-                  label:'copy_button',
+                  label:'複製按鈕怎麼做',
                 },
               ],
             },
@@ -75,8 +75,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               label:'⌨️ Docker',
               items:[
                 {
-                  to:'/docs/Docker/doc',
-                  label:'docker',
+                  to:'/docs/Docker/docker基本指令',
+                  label:'Docker基本指令',
                 },
               ],
             },
