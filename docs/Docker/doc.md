@@ -41,7 +41,7 @@ docker ps -a
 ![docker ps](../../static/img/docker/docker_ps.png "docker ps")
 
 
-開啟或停用Docker cotanier
+**開啟或停用Docker cotanier**
 ```
 docker start/stop cotainerID or containerName
 ```
@@ -49,6 +49,8 @@ docker start/stop cotainerID or containerName
 
 
 
+
+**刪除container**
 ```
 docker rm containerID or containerName
 ```
