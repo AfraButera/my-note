@@ -8,9 +8,9 @@
 
 :root {
   --ifm-color-primary: #49423f9d;
-  --ifm-color-primary-dark: rgb(217, 154, 123);
-  --ifm-color-primary-darker: rgb(174, 65, 65);
-  --ifm-color-primary-darkest: rgb(205, 73, 8);
+  --ifm-color-primary-dark: rgb(108, 106, 105);
+  --ifm-color-primary-darker: rgb(108, 106, 105);
+  --ifm-color-primary-darkest: rgb(108, 106, 105);
   --ifm-color-primary-light: rgba(73, 73, 68, 0.767);
   --ifm-color-primary-lighter: rgb(78, 77, 76);
   --ifm-color-primary-lightest: rgb(149, 148, 147);
