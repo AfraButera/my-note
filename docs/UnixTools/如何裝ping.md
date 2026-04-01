@@ -10,6 +10,9 @@ sudo apt update
 
 
 2.輸入``sudo apt install iputils-ping``用apt安裝ping
+```
+sudo apt install iputils-ping
+```
 ![apt install ping](../../static/img/docker/docker_ping_install.png "docker_ping_install")
 
 3.裝完就可以使用ping了
