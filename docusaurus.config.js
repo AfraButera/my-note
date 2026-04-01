@@ -53,6 +53,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 
               },
               {
+                to: '/docs/UnixTools/如何裝ping',
+                label: '如何裝ping',
+              },
+              {
+                to: '/docs/UnixTools/Terminal無法用con .呼叫vscode',
+                label: 'Terminal無法用con .呼叫vscode',
+              },
+              {
                 to: '/docs/UnixTools/tar_tgz',
                 label: 'tar跟tgz轉換',
               },
