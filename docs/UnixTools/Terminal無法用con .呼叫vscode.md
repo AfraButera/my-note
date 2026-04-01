@@ -9,7 +9,7 @@ Terminal輸入``con .``會跳出<br />
 ``Shell Command:Install 'code' command in PATH`` <br />
 ``Shell Command:Uninstall 'code' command in PATH`` <br />
 先Uninstall，再Install<br />
-Uninstall <br .>
+Uninstall <br />
 ![vscode uninstall](../../static/img/docker/docker_vscode_con_uninstall.png "vscode_codecommand_uninstall") <br />
 Install <br />
 ![vscode install](../../static/img/docker/docker_vscode_con_install.png "vscode_codecommand_install")
