@@ -83,7 +83,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               label:'⌨️ Docker',
               items:[
                 {
-                  to:'/docs/Docker/docker基本指令',
+                  to:'/docs/Docker/Docker基本指令',
                   label:'Docker基本指令',
                 },
               ],
