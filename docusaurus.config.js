@@ -61,7 +61,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Terminal無法用con .呼叫vscode',
               },
               {
-                to: '/docs/UnixTools/tar_tgz',
+                to: '/docs/UnixTools/tar_tgz轉換',
                 label: 'tar跟tgz轉換',
               },
             ],
