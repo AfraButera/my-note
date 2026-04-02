@@ -1,6 +1,6 @@
 問題發生：<br />
 Terminal輸入``con .``會跳出<br />
-``-bash:code:command not found``
+``-bash:code:command not found`` <br />
 ![vscode_con._notfound](../../static/img/docker/docker_vscode_con_erro.png "vscode_con._notfound")
 
 1.確認vscode有安裝且是在應用程式的folder
