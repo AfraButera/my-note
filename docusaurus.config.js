@@ -43,73 +43,77 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         items: [
           {
+            type:'dropdown',
+            position:'left',
+            label:'⌨️ Docker',
+            items:[
+              {
+                to:'/docs/Docker/Docker基本指令',
+                label:'Docker基本指令',
+              },
+            ],
+          },
+          {
+            type:'dropdown',
+            position:'left',
+            label:'⌨️ Markdown Note',
+            items:[
+              {
+                to:'/docs/Markdown Note/複製按鈕怎麼做',
+                label:'複製按鈕怎麼做',
+              },
+            ],
+          },
+          {
+            type:'dropdown',
+            position:'left',
+            label:'⌨️ PostgreSQL',
+            items:[
+              {
+                to:'/docs/PostgreSQL/post',
+                label:'post',
+              },
+            ],
+          },
+          {
+            type:'dropdown',
+            position:'left',
+            label:'⌨️ Python',
+            items:[
+              {
+                to:'/docs/Python/py',
+                label:'py',
+              },
+            ],
+          },
+          {
             type: 'dropdown',
             position: 'left',
             label: '⌨️ Unix(類Unix)工具集 ',
             items:[
               {
+                to: '/docs/UnixTools/Terminal無法用con .呼叫vscode',
+                label: 'Terminal無法用con .呼叫vscode',
+                
+              },
+              {
+                to: '/docs/UnixTools/tar_tgz轉換',
+                label: 'tar_tgz轉換',
+              },
+              {
                 to: '/docs/UnixTools/p7zip加解壓',
                 label: 'p7zip加解壓',
-                
+              },
+              {
+                to: '/docs/UnixTools/如何裝yarn',
+                label: '如何裝yarn',
               },
               {
                 to: '/docs/UnixTools/如何裝ping',
                 label: '如何裝ping',
               },
-              {
-                to: '/docs/UnixTools/Terminal無法用con .呼叫vscode',
-                label: 'Terminal無法用con .呼叫vscode',
-              },
-              {
-                to: '/docs/UnixTools/tar_tgz轉換',
-                label: 'tar跟tgz轉換',
-              },
             ],
           },
-            {
-              type:'dropdown',
-              position:'left',
-              label:'⌨️ Markdown Note',
-              items:[
-                {
-                  to:'/docs/Markdown Note/複製按鈕怎麼做',
-                  label:'複製按鈕怎麼做',
-                },
-              ],
-            },
-            {
-              type:'dropdown',
-              position:'left',
-              label:'⌨️ Docker',
-              items:[
-                {
-                  to:'/docs/Docker/Docker基本指令',
-                  label:'Docker基本指令',
-                },
-              ],
-            },
-            {
-              type:'dropdown',
-              position:'left',
-              label:'⌨️ PostgreSQL',
-              items:[
-                {
-                  to:'/docs/PostgreSQL/post',
-                  label:'post',
-                },
-              ],
-            },
-            {
-              type:'dropdown',
-              position:'left',
-              label:'⌨️ Python',
-              items:[
-                {
-                  to:'/docs/Python/py',
-                  label:'py',
-                },
-              ],
-            },
           {
             href: 'https://github.com/AfraButera',
             label: 'My GitHub',
