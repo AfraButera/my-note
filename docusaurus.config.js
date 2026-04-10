@@ -81,8 +81,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label:'⌨️ Python',
             items:[
               {
-                to:'/docs/Python/py',
-                label:'py',
+                to:'/docs/Python/資料型別',
+                label:'資料型別',
               },
             ],
           },
