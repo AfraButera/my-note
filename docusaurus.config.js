@@ -125,7 +125,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         
             
-        copyright: `Copyright © ${new Date().getFullYear()} Afra's Note Space, Inc. Built with Docusaurus.<br/><br/> <a href="https://www.stylemap.co.jp/" target="_blank" rel="noopener noreferrer"><img src="https://www.f-counter.net/j/67/1776310045/" alt="Access Counter" style="opacity: 0.8;" /></a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} Afra's Note Space, Inc. Built with Docusaurus.<br/><br/> <a href="https://www.stylemap.co.jp/" target="_blank" rel="noopener noreferrer"><img src="https://www.f-counter.net/j/67/1776311357/" alt="Access Counter" style="opacity: 0.8;" /></a>`,
       },
       prism: {
         theme: lightCodeTheme,
