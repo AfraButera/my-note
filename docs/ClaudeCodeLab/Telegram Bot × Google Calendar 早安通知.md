@@ -2,10 +2,9 @@ import PasswordGate from '@site/src/components/PasswordGate';
 
 # Telegram Bot × Google Calendar 早安通知
 
-在 Telegram 傳 `/morning`，Bot 會回傳今天的 Google Calendar 行程。<br />
-
-<PasswordGate password="1234">
+在 Telegram 傳 `/morning`，Bot 會回傳今天的 Google Calendar 行程。
 ---
+<PasswordGate password="1234">
 
 ## 這整件事在做什麼？
 
