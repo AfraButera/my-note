@@ -67,6 +67,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             type:'dropdown',
             position:'left',
+            label:'⌨️ ClaudeCodeLab',
+            items:[
+              {
+                to:'/docs/ClaudeCodeLab/Telegram Bot × Google Calendar 早安通知',
+                label:'Telegram Bot × Google Calendar 早安通知',
+              },
+            ],
+          },
+          {
+            type:'dropdown',
+            position:'left',
             label:'⌨️ PostgreSQL',
             items:[
               {
