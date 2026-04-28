@@ -1,7 +1,9 @@
+import PasswordGate from '@site/src/components/PasswordGate';
+
 # Telegram Bot × Google Calendar 早安通知
 
 在 Telegram 傳 `/morning`，Bot 會回傳今天的 Google Calendar 行程。
-
+<PasswordGate password="1234">
 ---
 
 ## 這整件事在做什麼？
@@ -332,3 +334,6 @@ telegram_bot/
 - Bot 必須保持執行中才能收到指令，關掉終端機 Bot 就停了
 - `credentials.json` 和 `token.json` 不能上傳到 GitHub
 - Token 寫死在 `bot.py` 裡適合本機自用，如果未來要放到伺服器再改成環境變數的方式
+
+
+</PasswordGate>
