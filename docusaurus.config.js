@@ -121,15 +121,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 to:'/docs/Python/Old練習/Old-基礎入門',
-                label:'Old｜基礎入門',
+                label:'練習｜基礎入門',
               },
               {
                 to:'/docs/Python/Old練習/Old-變數與字串',
-                label:'Old｜變數與字串',
+                label:'練習｜變數與字串',
               },
               {
                 to:'/docs/Python/Old練習/Old-應用小專案',
-                label:'Old｜應用小專案',
+                label:'練習｜應用小專案',
               },
             ],
           },
