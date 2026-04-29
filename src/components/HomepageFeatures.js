@@ -4,29 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'This is a mountain',
+    title: '歡迎踏踏～這邊你就當欣賞三張壁畫',
     Svg: require('../../static/img/noteweb-mountain.svg').default,
     description: (
       <>
-        歡迎踏踏～這邊你就當欣賞三張壁畫XDD
+        山   民國115年 Afra請Gemini做的sng
       </>
     ),
   },
   {
-    title: 'There have a fish',
+    title: '筆記持續建置中......',
     Svg: require('../../static/img/noteweb-fish.svg').default,
     description: (
       <>
-        筆記持續建置中......
+        魚悅   民國115年 Afra請Gemini做的sng
       </>
     ),
   },
   {
-    title: 'This is a ....... I forgot it.',
+    title: '你也可以去上方按鈕跟我Say Hello!',
     Svg: require('../../static/img/noteweb-banner.svg').default,
     description: (
       <>
-       你也可以去上方按鈕跟我Say Hello!
+       海波浪   民國115年 Afra請Gemini做的sng
       </>
     ),
   },
