@@ -100,20 +100,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label:'練習｜零散題目',
               },
               {
-                to:'/docs/Python/練習筆記/CodeShiba-if判斷式',
-                label:'練習｜CodeShiba - if 判斷式',
+                to:'/docs/Python/CodeShiba學習練習/if判斷式',
+                label:'CodeShiba｜if 判斷式',
               },
               {
-                to:'/docs/Python/練習筆記/CodeShiba-數學運算',
-                label:'練習｜CodeShiba - 數學運算',
+                to:'/docs/Python/CodeShiba學習練習/數學運算',
+                label:'CodeShiba｜數學運算',
               },
               {
-                to:'/docs/Python/練習筆記/CodeShiba-字串方法',
-                label:'練習｜CodeShiba - 字串方法',
+                to:'/docs/Python/CodeShiba學習練習/字串方法',
+                label:'CodeShiba｜字串方法',
               },
               {
-                to:'/docs/Python/練習筆記/CodeShiba-記帳系統',
-                label:'練習｜CodeShiba - 記帳系統',
+                to:'/docs/Python/CodeShiba學習練習/記帳系統',
+                label:'CodeShiba｜簡易記帳系統',
               },
               {
                 to:'/docs/Python/練習筆記/SeriseA練習題',

@@ -1,6 +1,6 @@
 ---
-id: CodeShiba-if判斷式
-title: CodeShiba - if 判斷式
+id: if判斷式
+title: if 判斷式
 ---
 
 > 來源：CodeShiba 課程  
