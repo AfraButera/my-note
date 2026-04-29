@@ -120,15 +120,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label:'練習｜Serise A 題目',
               },
               {
-                to:'/docs/Python/Old練習/Old-基礎入門',
+                to:'/docs/Python/練習筆記/基礎入門',
                 label:'練習｜基礎入門',
               },
               {
-                to:'/docs/Python/Old練習/Old-變數與字串',
+                to:'/docs/Python/練習筆記/變數與字串',
                 label:'練習｜變數與字串',
               },
               {
-                to:'/docs/Python/Old練習/Old-應用小專案',
+                to:'/docs/Python/練習筆記/應用小專案',
                 label:'練習｜應用小專案',
               },
             ],
