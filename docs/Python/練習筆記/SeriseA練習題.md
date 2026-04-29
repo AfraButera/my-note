@@ -1,6 +1,7 @@
 ---
 id: SeriseA練習題
 title: Serise A 練習題
+sidebar_position: 5
 ---
 
 > 涵蓋概念：print、input、f-string、int/float 轉型、if/elif/else、for 迴圈、mod 運算

@@ -1,6 +1,7 @@
 ---
 id: if判斷式
 title: if 判斷式
+sidebar_position: 1
 ---
 
 > 來源：CodeShiba 課程  
