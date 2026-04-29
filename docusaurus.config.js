@@ -95,6 +95,30 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to:'/docs/Python/資料型別',
                 label:'資料型別',
               },
+              {
+                to:'/docs/Python/練習筆記/零散練習',
+                label:'練習｜零散題目',
+              },
+              {
+                to:'/docs/Python/練習筆記/CodeShiba-if判斷式',
+                label:'練習｜CodeShiba - if 判斷式',
+              },
+              {
+                to:'/docs/Python/練習筆記/CodeShiba-數學運算',
+                label:'練習｜CodeShiba - 數學運算',
+              },
+              {
+                to:'/docs/Python/練習筆記/CodeShiba-字串方法',
+                label:'練習｜CodeShiba - 字串方法',
+              },
+              {
+                to:'/docs/Python/練習筆記/CodeShiba-記帳系統',
+                label:'練習｜CodeShiba - 記帳系統',
+              },
+              {
+                to:'/docs/Python/練習筆記/SeriseA練習題',
+                label:'練習｜Serise A 題目',
+              },
             ],
           },
           {
