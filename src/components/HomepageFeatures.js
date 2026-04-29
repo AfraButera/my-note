@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/noteweb-mountain.svg').default,
     description: (
       <>
-        這是第一張圖
+        歡迎踏踏～這邊你就當欣賞三張壁畫XDD
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/noteweb-fish.svg').default,
     description: (
       <>
-        這是第二張圖
+        筆記持續建置中......
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/noteweb-banner.svg').default,
     description: (
       <>
-       這是第三張圖
+       你也可以去上方按鈕跟我Say Hello!
       </>
     ),
   },
