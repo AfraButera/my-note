@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/noteweb-mountain.svg').default,
     description: (
       <>
-        山   民國115年 Afra請Gemini做的sng 200pxⅩ200px
+        山   民國115年 Afra請Gemini做的sng   200 Ⅹ 200px
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/noteweb-fish.svg').default,
     description: (
       <>
-        魚悅   民國115年 Afra請Gemini做的sng  200pxⅩ200px
+        魚悅   民國115年 Afra請Gemini做的sng 200 Ⅹ 200px
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/noteweb-banner.svg').default,
     description: (
       <>
-       海波浪   民國115年 Afra請Gemini做的sng  200pxⅩ200px
+       波浪   民國115年 Afra請Gemini做的sng 200 Ⅹ 200px
       </>
     ),
   },
