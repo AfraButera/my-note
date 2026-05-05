@@ -131,6 +131,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to:'/docs/Python/練習筆記/應用小專案',
                 label:'練習｜應用小專案',
               },
+              {
+                to:'/docs/Python/Claude教學練習紀錄/2026-04-30_L1_函式深入',
+                label:'Claude教學｜L1 函式深入',
+              },
+              {
+                to:'/docs/Python/Claude教學練習紀錄/2026-05-01_L2_迴圈進階',
+                label:'Claude教學｜L2 迴圈進階',
+              },
             ],
           },
           {
