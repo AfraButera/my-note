@@ -96,68 +96,44 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label:'資料型別',
               },
               {
-                type: 'html',
-                value: '<hr style="margin:4px 0"/>',
-              },
-              {
-                type: 'html',
-                value: '<small style="padding:0 12px;color:#888">CodeShiba</small>',
-              },
-              {
                 to:'/docs/Python/CodeShiba學習練習/if判斷式',
-                label:'if 判斷式',
+                label:'CodeShiba｜if 判斷式',
               },
               {
                 to:'/docs/Python/CodeShiba學習練習/數學運算',
-                label:'數學運算',
+                label:'CodeShiba｜數學運算',
               },
               {
                 to:'/docs/Python/CodeShiba學習練習/字串方法',
-                label:'字串方法',
-              },
-              {
-                type: 'html',
-                value: '<hr style="margin:4px 0"/>',
-              },
-              {
-                type: 'html',
-                value: '<small style="padding:0 12px;color:#888">練習筆記</small>',
+                label:'CodeShiba｜字串方法',
               },
               {
                 to:'/docs/Python/練習筆記/零散練習',
-                label:'零散題目',
+                label:'練習｜零散題目',
               },
               {
                 to:'/docs/Python/練習筆記/SeriseA練習題',
-                label:'Serise A 題目',
+                label:'練習｜Serise A 題目',
               },
               {
                 to:'/docs/Python/練習筆記/基礎入門',
-                label:'基礎入門',
+                label:'練習｜基礎入門',
               },
               {
                 to:'/docs/Python/練習筆記/變數與字串',
-                label:'變數與字串',
+                label:'練習｜變數與字串',
               },
               {
                 to:'/docs/Python/練習筆記/應用小專案',
-                label:'應用小專案',
-              },
-              {
-                type: 'html',
-                value: '<hr style="margin:4px 0"/>',
-              },
-              {
-                type: 'html',
-                value: '<small style="padding:0 12px;color:#888">Claude 教學</small>',
+                label:'練習｜應用小專案',
               },
               {
                 to:'/docs/Python/Claude教學練習紀錄/2026-04-30_L1_函式深入',
-                label:'L1 函式深入',
+                label:'Claude教學｜L1 函式深入',
               },
               {
                 to:'/docs/Python/Claude教學練習紀錄/2026-05-01_L2_迴圈進階',
-                label:'L2 迴圈進階',
+                label:'Claude教學｜L2 迴圈進階',
               },
             ],
           },
