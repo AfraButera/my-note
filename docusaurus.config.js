@@ -111,10 +111,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to:'/docs/Python/CodeShiba學習練習/字串方法',
                 label:'CodeShiba｜字串方法',
               },
-              {
-                to:'/docs/Python/CodeShiba學習練習/記帳系統',
-                label:'CodeShiba｜簡易記帳系統',
-              },
+
               {
                 to:'/docs/Python/練習筆記/SeriseA練習題',
                 label:'練習｜Serise A 題目',
