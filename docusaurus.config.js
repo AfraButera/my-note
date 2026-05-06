@@ -81,7 +81,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label:'💬 Claude 問答',
             items:[
               {
-                to:'/docs/Claude問答/2026-05-06',
+                to:'/docs/ClaudeQA/2026-05-06',
                 label:'2026-05-06',
               },
             ],
