@@ -78,6 +78,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             type:'dropdown',
             position:'left',
+            label:'💬 Claude 問答',
+            items:[
+              {
+                to:'/docs/Claude問答/2026-05-06',
+                label:'2026-05-06',
+              },
+            ],
+          },
+          {
+            type:'dropdown',
+            position:'left',
             label:'⌨️ PostgreSQL',
             items:[
               {
