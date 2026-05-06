@@ -4,6 +4,10 @@ title: 問答紀錄 2026-05-06
 sidebar_position: 1
 ---
 
+import PasswordGate from '@site/src/components/PasswordGate';
+
+<PasswordGate password="20260506">
+
 ## Sidebar 和 Navbar Dropdown 有什麼差別？
 
 **Q：** 我的 homepage sidebar 是看不出資料夾分類的對嗎？他是用 `[xx|]` 區分嗎？
@@ -38,14 +42,6 @@ sidebar_position: 1
 
 **A：** 在 Docusaurus 新版裡，`type: 'html'` 讓你在 navbar dropdown 裡插入**任意 HTML**，用來做分隔線或小標題，達到分組效果：
 
-```
-資料型別
-────────────    ← <hr/> 分隔線
-CodeShiba       ← <small> 小標題
-  if 判斷式
-  數學運算
-```
-
 但因為這個功能是**後來才加進去**的，beta.6 的時候還不存在。Docusaurus 讀到 `type: 'html'`，查自己支援的類型清單，找不到就報錯。
 
 類比：叫一支 iOS 12 的手機跑只有 iOS 16 才有的功能，手機不認識，直接閃退。
@@ -66,21 +62,12 @@ CodeShiba       ← <small> 小標題
 
 **知識點：** Docusaurus MD 檔的 frontmatter `id` 若是日期格式，不加引號會出錯。
 
-**原因：** YAML 會把 `2026-05-06` 自動解讀為日期物件（Date），Docusaurus 再把它轉成字串時變成：
+**原因：** YAML 會把 `2026-05-06` 自動解讀為日期物件（Date），Docusaurus 再把它轉成字串時變成 `Wed May 06 2026 08:00:00 GMT+0800`，這個字串變成 URL 路徑就完全爛掉，導致 broken links 報錯。
 
-```
-Wed May 06 2026 08:00:00 GMT+0800 (台北標準時間)
-```
-
-這個字串變成 URL 路徑就完全爛掉，導致 broken links 報錯。
-
-**正確寫法：加引號強制當字串**
+**正確寫法：**
 
 ```yaml
----
-id: "2026-05-06"   ✅
-title: 問答紀錄 2026-05-06
----
+id: "2026-05-06"
 ```
 
 ---
@@ -92,3 +79,5 @@ title: 問答紀錄 2026-05-06
 **原因：** 中文字元在 URL 裡需要 percent-encoding（如 `問` → `%E5%95%8F`）。Docusaurus 產生的實際頁面路徑是編碼後的 URL，但 navbar 的 `to` 若寫中文，兩者對不上，就出現 broken links。
 
 **解法：** 資料夾名稱一律用英文，例如 `ClaudeQA/` 而不是 `Claude問答/`。
+
+</PasswordGate>
