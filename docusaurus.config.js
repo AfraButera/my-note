@@ -154,6 +154,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to:'/docs/Python/Claude教學練習紀錄/2026-05-01_L2_迴圈進階',
                 label:'Claude教學｜L2 迴圈進階',
               },
+              {
+                to:'/docs/Python/Claude教學練習紀錄/2026-05-12_L3_List完整操作',
+                label:'Claude教學｜L3 List完整操作',
+              },
             ],
           },
           {
