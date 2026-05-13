@@ -101,17 +101,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             type:'dropdown',
             position:'left',
-            label:'⌨️ PostgreSQL',
-            items:[
-              {
-                to:'/docs/PostgreSQL/post',
-                label:'post',
-              },
-            ],
-          },
-          {
-            type:'dropdown',
-            position:'left',
             label:'⌨️ Python',
             items:[
               {
@@ -129,10 +118,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 to:'/docs/Python/學習筆記/字串方法',
                 label:'學習筆記｜字串方法',
-              },
-              {
-                to:'/docs/Python/學習筆記/零散練習',
-                label:'學習筆記｜零散題目',
               },
               {
                 to:'/docs/Python/學習筆記/SeriseA練習題',
