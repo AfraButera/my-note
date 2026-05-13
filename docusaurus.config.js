@@ -67,10 +67,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             type:'dropdown',
             position:'left',
-            label:'⌨️ ClaudeCodeLab',
+            label:'🗂️ 專案紀錄',
             items:[
               {
-                to:'/docs/ClaudeCodeLab/Telegram Bot × Google Calendar 早安通知',
+                to:'/docs/專案紀錄/Telegram Bot × Google Calendar 早安通知',
                 label:'Telegram Bot × Google Calendar 早安通知',
               },
             ],
@@ -119,36 +119,36 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label:'資料型別',
               },
               {
-                to:'/docs/Python/CodeShiba學習練習/if判斷式',
-                label:'CodeShiba｜if 判斷式',
+                to:'/docs/Python/學習筆記/if判斷式',
+                label:'學習筆記｜if 判斷式',
               },
               {
-                to:'/docs/Python/CodeShiba學習練習/數學運算',
-                label:'CodeShiba｜數學運算',
+                to:'/docs/Python/學習筆記/數學運算',
+                label:'學習筆記｜數學運算',
               },
               {
-                to:'/docs/Python/CodeShiba學習練習/字串方法',
-                label:'CodeShiba｜字串方法',
+                to:'/docs/Python/學習筆記/字串方法',
+                label:'學習筆記｜字串方法',
               },
               {
-                to:'/docs/Python/練習筆記/零散練習',
-                label:'練習｜零散題目',
+                to:'/docs/Python/學習筆記/零散練習',
+                label:'學習筆記｜零散題目',
               },
               {
-                to:'/docs/Python/練習筆記/SeriseA練習題',
-                label:'練習｜Serise A 題目',
+                to:'/docs/Python/學習筆記/SeriseA練習題',
+                label:'學習筆記｜Serise A 題目',
               },
               {
-                to:'/docs/Python/練習筆記/基礎入門',
-                label:'練習｜基礎入門',
+                to:'/docs/Python/學習筆記/基礎入門',
+                label:'學習筆記｜基礎入門',
               },
               {
-                to:'/docs/Python/練習筆記/變數與字串',
-                label:'練習｜變數與字串',
+                to:'/docs/Python/學習筆記/變數與字串',
+                label:'學習筆記｜變數與字串',
               },
               {
-                to:'/docs/Python/練習筆記/應用小專案',
-                label:'練習｜應用小專案',
+                to:'/docs/Python/學習筆記/應用小專案',
+                label:'學習筆記｜應用小專案',
               },
               {
                 to:'/docs/Python/Claude教學練習紀錄/2026-04-30_L1_函式深入',
