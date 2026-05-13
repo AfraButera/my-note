@@ -13,6 +13,7 @@ export default function PasswordGate({ password, children }) {
         placeholder="輸入密碼"
         value={input}
         onChange={e => setInput(e.target.value)}
+        onKeyDown={e => e.key === 'Enter' && setUnlocked(input === password)}
       />
       <button onClick={() => setUnlocked(input === password)}>
         解鎖
