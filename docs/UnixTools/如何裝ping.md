@@ -1,19 +1,37 @@
-問題發生：<br />
-``bash:ping：command not found``
-![ping command not found](../../static/img/docker/docker_ping_question.png "docker_ping_notfound")
+---
+id: 如何裝ping
+title: 如何裝 ping
+sidebar_position: 1
+---
 
-1.輸入``sudo apt update``先更新apt
+## 問題
+
 ```
+bash: ping: command not found
+```
+
+![ping command not found](../../static/img/docker/docker_ping_question.png)
+
+---
+
+## 解法
+
+**步驟一：更新 apt**
+
+```bash
 sudo apt update
 ```
-![apt update](../../static/img/docker/docker_ping_aptupdate.png "docekr_apt_update")
 
+![apt update](../../static/img/docker/docker_ping_aptupdate.png)
 
-2.輸入``sudo apt install iputils-ping``用apt安裝ping
-```
+**步驟二：安裝 ping**
+
+```bash
 sudo apt install iputils-ping
 ```
-![apt install ping](../../static/img/docker/docker_ping_install.png "docker_ping_install")
 
-3.裝完就可以使用ping了
-![ping command use](../../static/img/docker/docker_ping_finish.png "ping command use")
+![apt install ping](../../static/img/docker/docker_ping_install.png)
+
+裝完即可正常使用 `ping`。
+
+![ping command use](../../static/img/docker/docker_ping_finish.png)

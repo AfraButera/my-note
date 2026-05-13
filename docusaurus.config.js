@@ -115,8 +115,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label:'⌨️ Python',
             items:[
               {
-                to:'/docs/Python/資料型別',
-                label:'資料型別',
+                to:'/docs/Python/學習筆記/資料型別',
+                label:'學習筆記｜資料型別',
               },
               {
                 to:'/docs/Python/學習筆記/if判斷式',
@@ -170,9 +170,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: '⌨️ Unix(類Unix)工具集 ',
             items:[
               {
-                to: '/docs/UnixTools/Terminal無法用con .呼叫vscode',
-                label: 'Terminal無法用con .呼叫vscode',
-                
+                to: '/docs/UnixTools/Terminal無法用code呼叫vscode',
+                label: 'Terminal 無法用 code . 呼叫 VS Code',
               },
               {
                 to: '/docs/UnixTools/tar_tgz轉換',

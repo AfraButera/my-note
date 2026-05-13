@@ -1,15 +1,21 @@
-### tar 轉成 tgz 檔 <br />
-``gzip my_file.tar my_file.tgz``
-<button 
-  className="button button--primary" 
-  onClick={() => {navigator.clipboard.writeText('gzip my_file.tar my_file.tgz');alert('已複製指令！');}}>
-  複製程式碼
-</button> <br/>
+---
+id: tar_tgz轉換
+title: tar / tgz 格式轉換
+sidebar_position: 4
+---
 
-### tgz 轉成 tar 檔 <br />
-``tar zcvf my_file.tar my_file.tgz``
-<button 
-  className="button button--primary" 
-  onClick={() => {navigator.clipboard.writeText('tar zcvf my_file.tar my_file.tgz');alert('已複製指令！');}}>
-  複製程式碼
-</button>
+## tar 轉成 tgz
+
+```bash
+gzip my_file.tar my_file.tgz
+```
+
+## tgz 轉成 tar
+
+```bash
+tar zcvf my_file.tar my_file.tgz
+```
+
+:::note
+`.tar.gz` 和 `.tgz` 是相同格式，只是副檔名不同。
+:::

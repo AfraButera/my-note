@@ -1,15 +1,40 @@
-問題發生：<br />
-Terminal輸入``con .``會跳出<br />
-``-bash:code:command not found`` <br />
-![vscode_con._notfound](../../static/img/docker/docker_vscode_con_erro.png "vscode_con._notfound")
+---
+id: Terminal無法用code呼叫vscode
+title: Terminal 無法用 code . 呼叫 VS Code
+sidebar_position: 3
+---
 
-1.確認vscode有安裝且是在應用程式的folder
+## 問題
 
-2.打開vscode，快捷鍵``⌘`` ``⇧`` ``P``，然後輸入shell找到shell相關的命令<br />
-``Shell Command:Install 'code' command in PATH`` <br />
-``Shell Command:Uninstall 'code' command in PATH`` <br />
-先Uninstall，再Install<br />
-Uninstall <br />
-![vscode uninstall](../../static/img/docker/docker_vscode_con_uninstall.png "vscode_codecommand_uninstall") <br />
-Install <br />
-![vscode install](../../static/img/docker/docker_vscode_con_install.png "vscode_codecommand_install")
+Terminal 輸入 `code .` 出現：
+
+```
+-bash: code: command not found
+```
+
+![vscode_con._notfound](../../static/img/docker/docker_vscode_con_erro.png)
+
+---
+
+## 解法
+
+**步驟一：確認 VS Code 已安裝且在應用程式資料夾**
+
+**步驟二：在 VS Code 重新安裝 shell command**
+
+按快捷鍵 `⌘ ⇧ P`，搜尋 `shell`，找到以下選項：
+
+- `Shell Command: Uninstall 'code' command in PATH`
+- `Shell Command: Install 'code' command in PATH`
+
+先 Uninstall，再 Install。
+
+Uninstall：
+
+![vscode uninstall](../../static/img/docker/docker_vscode_con_uninstall.png)
+
+Install：
+
+![vscode install](../../static/img/docker/docker_vscode_con_install.png)
+
+完成後在 Terminal 輸入 `code .` 即可正常開啟 VS Code。
