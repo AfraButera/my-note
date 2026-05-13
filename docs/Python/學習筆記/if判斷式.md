@@ -4,8 +4,7 @@ title: if 判斷式
 sidebar_position: 6
 ---
 
-> 來源：CodeShiba 課程  
-> 涵蓋概念：if / elif / else、邏輯運算子（and / or）、單位轉換
+> 涵蓋概念：if / elif / else、邏輯運算子（and / or）、溫度 / 體重單位轉換
 
 ---
 
