@@ -155,6 +155,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to:'/docs/Python/Claude教學練習紀錄/2026-05-12_L3_List完整操作',
                 label:'Claude教學｜L3 List完整操作',
               },
+              {
+                to:'/docs/Python/Claude教學練習紀錄/2026-05-14_L4_Dictionary',
+                label:'Claude教學｜L4 Dictionary',
+              },
             ],
           },
           {
