@@ -6,7 +6,7 @@ sidebar_position: 4
 
 > 學習日期：2026-05-14
 > 單元：階段二 L4 — Dictionary
-> 狀態：⬜ 進行中（習題一 ✅、習題二 ⬜、習題三 ⬜）
+> 狀態：⬜ 進行中（習題一 ✅、熱身 A ⬜、熱身 B ⬜、習題二 ⬜、熱身 C ⬜、習題三 ⬜）
 
 ---
 
@@ -147,9 +147,32 @@ for index, option in enumerate(options, start=1):
 
 ---
 
+### 熱身 A｜`.isalpha()` 篩字母（⬜ 進行中）
+
+**題目：** 給定 `text = 'Hi! 123'`，用 for 迴圈只印出英文字母，跳過數字和符號。
+
+---
+
+### 熱身 B｜`.get()` 計數（⬜ 進行中）
+
+**題目：** 給定 `letters = ['a', 'b', 'a', 'c', 'b', 'a']`，用 for 迴圈數每個字母出現幾次，存到 dict 並印出。
+
+---
+
 ### 習題二｜字母計數（⬜ 進行中）
 
 **題目：** 輸入一段文字，統計每個英文字母出現幾次（不區分大小寫，忽略非字母字元）。
+
+---
+
+### 熱身 C｜for 迴圈 → dict comprehension（⬜ 進行中）
+
+**題目：** 把下方 for 迴圈改寫成一行 dict comprehension：
+```python
+result = {}
+for x in range(1, 6):
+    result[x] = x * 2
+```
 
 ---
 
