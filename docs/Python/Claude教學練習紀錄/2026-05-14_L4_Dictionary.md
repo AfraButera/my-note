@@ -6,7 +6,7 @@ sidebar_position: 4
 
 > 學習日期：2026-05-14
 > 單元：階段二 L4 — Dictionary
-> 狀態：⬜ 進行中（習題一 ✅、熱身 A ⬜、熱身 B ⬜、習題二 ⬜、熱身 C ⬜、習題三 ⬜）
+> 狀態：⬜ 進行中（習題一 ✅、熱身 A ✅、熱身 B ⬜、習題二 ⬜、熱身 C ⬜、習題三 ⬜）
 
 ---
 
@@ -147,9 +147,21 @@ for index, option in enumerate(options, start=1):
 
 ---
 
-### 熱身 A｜`.isalpha()` 篩字母（⬜ 進行中）
+### 熱身 A｜`.isalpha()` 篩字母（✅ 通過）
 
 **題目：** 給定 `text = 'Hi! 123'`，用 for 迴圈只印出英文字母，跳過數字和符號。
+
+**作答：**
+```python
+text = 'Hi! 123'
+for x in text:
+    if x.isalpha():
+        print(x)
+```
+
+:::note 觀念整理
+`.isalpha()` 是字串方法，對單一字元使用，回傳 `True`（字母）或 `False`（數字、符號、空白）。搭配 for 迴圈逐字元跑，加上 `if` 篩選，就能從任意字串裡取出所有字母。
+:::
 
 ---
 
