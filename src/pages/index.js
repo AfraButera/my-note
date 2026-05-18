@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to= "/hello">
-            👆 LET'S SAY HI !
+            LET'S SAY HI !
           </Link>
         </div>
       </div>
