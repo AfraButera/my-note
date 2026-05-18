@@ -183,6 +183,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             type: 'dropdown',
             position: 'left',
+            label: '📖 閱讀心得',
+            items: [],
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
             label: '⌨️ Unix(類Unix)工具集 ',
             items:[
               {
