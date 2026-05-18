@@ -178,6 +178,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/docs/English/學習紀錄/intro',
                 label: '學習紀錄總覽',
               },
+              {
+                to: '/docs/English/寫作練習/2025-05-01_to_03',
+                label: '寫作練習｜2025-05-01 ~ 05-03',
+              },
             ],
           },
           {
