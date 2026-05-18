@@ -188,7 +188,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'dropdown',
             position: 'left',
             label: '📖 閱讀心得',
-            items: [],
+            items: [
+              {
+                to: '/docs/Reading/intro',
+                label: '閱讀心得總覽',
+              },
+            ],
           },
           {
             type: 'dropdown',
