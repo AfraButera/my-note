@@ -6,7 +6,7 @@ sidebar_position: 4
 
 > 學習日期：2026-05-14
 > 單元：階段二 L4 — Dictionary
-> 狀態：⬜ 進行中（習題一 ✅、熱身 A ✅、熱身 B ⬜、習題二 ⬜、熱身 C ⬜、習題三 ⬜）
+> 狀態：⬜ 進行中（習題一 ✅、熱身 A ✅、熱身 B ✅、習題二 ✅、熱身 C ⬜、習題三 ⬜）
 
 ---
 
@@ -165,15 +165,78 @@ for x in text:
 
 ---
 
-### 熱身 B｜`.get()` 計數（⬜ 進行中）
+### 熱身 B｜`.get()` 計數（✅ 通過）
 
 **題目：** 給定 `letters = ['a', 'b', 'a', 'c', 'b', 'a']`，用 for 迴圈數每個字母出現幾次，存到 dict 並印出。
 
+**作答：**
+```python
+letters = ['a', 'b', 'a', 'c', 'b', 'a']
+count = {}
+for letter in letters:
+    count[letter] = count.get(letter, 0) + 1
+print(count)
+```
+
+:::note 觀念整理
+`count.get(letter, 0) + 1` 是計數的標準寫法：
+- key 第一次出現 → `get` 回傳預設值 `0`，加 1 後存入
+- key 再次出現 → `get` 回傳現有值，再加 1
+
+不需要先判斷 key 是否存在，一行搞定。
+:::
+
 ---
 
-### 習題二｜字母計數（⬜ 進行中）
+### 習題二｜字母計數（✅ 通過）
 
-**題目：** 輸入一段文字，統計每個英文字母出現幾次（不區分大小寫，忽略非字母字元）。
+**題目：** 輸入一段文字，統計每個英文字母出現幾次（不區分大小寫，忽略非字母字元），印出每個字母與次數。
+
+**作答：**
+```python
+users = input('請輸入：')
+users = users.lower()
+count = {}
+
+for user in users:
+    if user.isalpha():
+        count[user] = count.get(user, 0) + 1
+
+for key, value in count.items():
+    print(f"{key}: {value}")
+```
+
+:::note 觀念整理
+三個工具組合使用：
+- `.lower()` → 轉小寫，讓 `H` 和 `h` 算同一個
+- `.isalpha()` → 篩掉數字、空白、符號
+- `.get(key, 0) + 1` → 計數
+
+輸出用 `for key, value in count.items()` 逐行印，而非 `print(count)`，因為 `print(count)` 印的是 Python 內部格式（帶大括號和引號），不符合題目要求的排版。
+:::
+
+:::caution 本次訂正
+
+**`print(count)` 和 for 迴圈逐行印出的差異：**
+
+```python
+# 第一次作答（格式不符）
+print(count)
+# 輸出：{'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}
+
+# 修正後（逐行自訂格式）
+for key, value in count.items():
+    print(f"{key}: {value}")
+# 輸出：
+# h: 1
+# e: 1
+# l: 3
+```
+
+`print(dict)` 是讓 Python 自動把整個 dict 轉成字串印出，格式固定無法自訂。  
+for 迴圈讓你拿到每一筆 key / value，可以自由決定每行的輸出格式。
+
+:::
 
 ---
 
