@@ -12,66 +12,182 @@ sidebar_position: 4
 
 ## 學習重點
 
-### 建立與基本操作
+### 為什麼用 dict？
+
+**比喻：** list 像一排置物櫃，用「編號」找東西（index 0, 1, 2…）。dict 像有貼名字標籤的置物櫃，用「名字」找東西。
 
 ```python
-person = {'name': 'Ziv', 'age': 28, 'city': '台灣'}
+# list：靠位置找，要自己記得每個 index 代表什麼
+student_list = ['Ziv', 90, '台灣']
+student_list[1]     # 90（要自己記得 index 1 是分數）
 
-# 取值
-person['name']               # 'Ziv'（key 不存在會報 KeyError）
-person.get('email', 'N/A')   # 'N/A'（key 不存在時回傳預設值，不報錯）
-
-# 新增 / 修改
-person['email'] = 'ziv@example.com'   # key 不存在 → 新增；存在 → 覆蓋
-
-# 刪除
-del person['city']            # 直接刪
-person.pop('email')           # 刪除並回傳那個值
+# dict：用有意義的名字找，一看就懂
+student = {'name': 'Ziv', 'score': 90, 'city': '台灣'}
+student['score']    # 90
 ```
 
 ---
 
-### 遍歷 dict
+### 取值：`[]` vs `.get()`
 
 ```python
 person = {'name': 'Ziv', 'age': 28}
 
-for key in person:                    # 只拿 key
-    print(key)
+person['name']               # 'Ziv' ✅
+person['email']              # ❌ KeyError：key 不存在就炸
 
-for key, value in person.items():     # 同時拿 key 和 value（最常用）
-    print(f'{key}：{value}')
+person.get('name')           # 'Ziv'
+person.get('email')          # None（不炸，回傳 None）
+person.get('email', 'N/A')  # 'N/A'（自訂預設值）
+```
 
-person.keys()    # dict_keys(['name', 'age'])
-person.values()  # dict_values(['Ziv', 28])
+**何時用哪個：**
+
+| 情況 | 用法 |
+|------|------|
+| 確定 key 一定存在 | `d[key]` |
+| 不確定 key 是否存在（查詢、讀設定） | `d.get(key, 預設值)` |
+
+---
+
+### 新增、修改、刪除
+
+```python
+person = {'name': 'Ziv', 'age': 28}
+
+# 新增 / 修改（同一個語法）
+person['city'] = '台灣'   # key 不存在 → 新增
+person['age'] = 29        # key 已存在 → 覆蓋（修改）
+
+# 刪除
+del person['city']              # 直接刪，沒有回傳值
+removed = person.pop('age')     # 刪除並回傳被刪的值（removed = 29）
+```
+
+---
+
+### 遍歷：`.keys()` / `.values()` / `.items()`
+
+```python
+d = {'a': 1, 'b': 2, 'c': 3}
+
+for key in d.keys():           # 只跑 key
+    print(key)                 # a, b, c
+
+for value in d.values():       # 只跑 value
+    print(value)               # 1, 2, 3
+
+for key, value in d.items():   # 同時跑（最常用）
+    print(f'{key}：{value}')   # a：1 / b：2 / c：3
+```
+
+**常見錯誤：忘記加括號**
+
+```python
+for key, value in d.items:    # ❌ items 是方法，不加 () 只是「指向方法」，不會執行
+for key, value in d.items():  # ✅
+```
+
+---
+
+### `.get()` 計數技巧
+
+**為什麼需要這個技巧？**
+
+第一次遇到某個 key 時，dict 裡還沒有它，直接做 `+= 1` 會炸：
+
+```python
+count = {}
+count['a'] += 1   # ❌ KeyError：'a' 不存在，沒辦法 +1
+```
+
+用 `.get()` 解決：key 不存在就先給 0，再加 1：
+
+```python
+count = {}
+for ch in 'hello':
+    count[ch] = count.get(ch, 0) + 1
+```
+
+**逐步追蹤：**
+
+```
+ch='h'：count.get('h', 0) = 0（h 不在）→ 存入 1 → {'h': 1}
+ch='e'：count.get('e', 0) = 0         → 存入 1 → {'h':1, 'e':1}
+ch='l'：count.get('l', 0) = 0         → 存入 1 → {..., 'l':1}
+ch='l'：count.get('l', 0) = 1（l 在了）→ 存入 2 → {..., 'l':2}
+ch='o'：count.get('o', 0) = 0         → 存入 1 → {'h':1,'e':1,'l':2,'o':1}
 ```
 
 ---
 
 ### Dict Comprehension
 
-```python
-squares = {x: x**2 for x in range(1, 6)}
-# {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+**格式對照 List Comprehension：**
 
-even_squares = {x: x**2 for x in range(1, 11) if x % 2 == 0}
-# {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}
+```python
+# list comprehension
+[x**2 for x in range(1, 6)]
+# [1, 4, 9, 16, 25]
+
+# dict comprehension（改成 {key: value}）
+{x: x**2 for x in range(1, 6)}
+# {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
-格式：`{key: value for 變數 in 範圍 if 條件}`，條件可省略。
+**格式：** `{key表達式: value表達式 for 變數 in 範圍 if 條件（可省略）}`
+
+**條件決定 value（三元運算子）：**
+
+```python
+grades = {'Ziv': 90, 'Bobo': 60, 'Moon': 75}
+result = {k: 'pass' if v >= 70 else 'fail' for k, v in grades.items()}
+```
+
+**逐步追蹤：**
+
+```
+k='Ziv',  v=90 → 90>=70 → 'pass'
+k='Bobo', v=60 → 60<70  → 'fail'
+k='Moon', v=75 → 75>=70 → 'pass'
+結果：{'Ziv': 'pass', 'Bobo': 'fail', 'Moon': 'pass'}
+```
 
 ---
 
 ### 巢狀 dict（Nested dict）
+
+**概念：** dict 的 value 本身也是 dict。
 
 ```python
 students = {
     'Ziv':  {'score': 90, 'grade': 'A'},
     'Bobo': {'score': 75, 'grade': 'B'},
 }
+```
 
-students['Ziv']['score']    # 90（先拿外層 key，再拿內層 key）
-students['Bobo']['grade']   # 'B'
+**取值：兩層 key**
+
+```python
+students['Ziv']            # {'score': 90, 'grade': 'A'}（整個內層 dict）
+students['Ziv']['score']   # 90
+```
+
+**逐步拆解：**
+
+```python
+students['Ziv']['score']
+# Step 1：students['Ziv'] → {'score': 90, 'grade': 'A'}
+# Step 2：{'score': 90, 'grade': 'A'}['score'] → 90
+```
+
+**遍歷巢狀 dict：**
+
+```python
+for name, info in students.items():
+    print(f"{name}：{info['score']} 分，等級 {info['grade']}")
+# Ziv：90 分，等級 A
+# Bobo：75 分，等級 B
 ```
 
 ---
