@@ -172,7 +172,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label:'Claude教學｜L4 Dictionary',
               },
               {
-                to:'/docs/Python/Claude教學練習紀錄/2026-05-18_L1-L4_總複習',
+                to:'/docs/Python/Claude教學練習紀錄/2026-05-19_L1-L4_總複習',
                 label:'Claude教學｜L1–L4 總複習',
               },
             ],
