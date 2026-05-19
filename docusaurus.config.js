@@ -205,6 +205,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/docs/Reading/intro',
                 label: '閱讀心得總覽',
               },
+              {
+                to: '/docs/Reading/2026-05-19_原子習慣',
+                label: '原子習慣',
+              },
             ],
           },
           {
