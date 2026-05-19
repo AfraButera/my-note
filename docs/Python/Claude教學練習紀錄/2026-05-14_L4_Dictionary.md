@@ -6,7 +6,7 @@ sidebar_position: 4
 
 > 學習日期：2026-05-14
 > 單元：階段二 L4 — Dictionary
-> 狀態：⬜ 進行中（習題一 ✅、熱身 A ✅、熱身 B ✅、習題二 ✅、熱身 C ✅、習題三 ⬜）
+> 狀態：✅ 全部通過（習題一 ✅、熱身 A ✅、熱身 B ✅、習題二 ✅、熱身 C ✅、習題三 ✅）
 
 ---
 
@@ -268,6 +268,29 @@ Dict comprehension 格式：`{key: value for 變數 in 範圍}`
 
 ---
 
-### 習題三｜Dict Comprehension 成績標記（⬜ 進行中）
+### 習題三｜Dict Comprehension 成績標記（✅ 通過）
 
 **題目：** `scores = {'Ziv': 90, 'Bobo': 75, 'Manto': 88, 'Moon': 62}`，用 dict comprehension 產生新 dict，70 分以上 `'pass'`，以下 `'fail'`。
+
+**作答：**
+```python
+scores = {'Ziv': 90, 'Bobo': 75, 'Manto': 88, 'Moon': 62}
+score = {x: 'pass' if y >= 70 else 'fail' for x, y in scores.items()}
+print(score)
+```
+
+:::note 觀念整理
+Dict comprehension 加上條件判斷值的完整格式：
+
+```python
+{key: A if 條件 else B for key, value in dict.items()}
+```
+
+- `x, y in scores.items()` → 同時解包 key（名字）和 value（分數）
+- `'pass' if y >= 70 else 'fail'` → 三元運算子決定 value 的內容
+- 結果：`{'Ziv': 'pass', 'Bobo': 'pass', 'Manto': 'pass', 'Moon': 'fail'}`
+
+這是 dict comprehension 最完整的形式，把「建 dict + 條件判斷」壓縮進一行。
+:::
+
+---
