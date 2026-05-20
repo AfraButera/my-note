@@ -120,6 +120,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to:'/docs/ClaudeQA/2026-05-19',
                 label:'2026-05-19',
               },
+              {
+                to:'/docs/ClaudeQA/2026-05-20',
+                label:'2026-05-20',
+              },
             ],
           },
           {
