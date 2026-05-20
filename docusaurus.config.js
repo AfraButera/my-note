@@ -77,6 +77,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to:'/docs/專案紀錄/Telegram Bot × Google Calendar 早安通知',
                 label:'Telegram Bot × Google Calendar 早安通知',
               },
+              {
+                to:'/docs/專案紀錄/github-actions-telegram-reminder',
+                label:'GitHub Actions Telegram 定時提醒',
+              },
             ],
           },
           {
