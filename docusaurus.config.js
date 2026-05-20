@@ -202,6 +202,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/docs/English/寫作練習/2025-05-01_to_03',
                 label: '寫作練習｜2025-05-01 ~ 05-03',
               },
+              {
+                to: '/docs/English/寫作練習/2026-05-20',
+                label: '寫作練習｜2026-05-20',
+              },
             ],
           },
           {
